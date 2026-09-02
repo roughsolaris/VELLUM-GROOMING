@@ -1,0 +1,1040 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>VELLUM GROOMING — The Art of Timeless Grooming</title>
+
+  <meta
+    name="description"
+    content="VELLUM GROOMING — a timeless luxury barbershop experience combining traditional craftsmanship with modern precision."
+  >
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap"
+    rel="stylesheet"
+  >
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- =========================================
+       HEADER
+  ========================================== -->
+
+  <header class="header" id="header">
+
+    <div class="container nav-container">
+
+      <a href="#home" class="logo">
+        <span>VELLUM</span>
+        <small>GROOMING</small>
+      </a>
+
+      <nav class="desktop-nav">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About Us</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#journal" class="nav-link">News</a>
+        <a href="#shop" class="nav-link">Shop</a>
+        <a href="#contact" class="nav-link">Contacts</a>
+      </nav>
+
+      <div class="nav-actions">
+
+        <button class="nav-icon" id="searchBtn" aria-label="Search">
+          <i data-lucide="search"></i>
+        </button>
+
+        <button class="nav-icon" aria-label="Account">
+          <i data-lucide="user-round"></i>
+        </button>
+
+        <button class="nav-icon cart-icon" id="cartBtn" aria-label="Shopping bag">
+          <i data-lucide="shopping-bag"></i>
+          <span id="cartCount">2</span>
+        </button>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+          <span></span>
+          <span></span>
+        </button>
+
+      </div>
+
+    </div>
+
+
+    <!-- Mobile Navigation -->
+
+    <div class="mobile-nav" id="mobileNav">
+
+      <a href="#home">Home</a>
+      <a href="#about">About Us</a>
+      <a href="#services">Services</a>
+      <a href="#journal">News</a>
+      <a href="#shop">Shop</a>
+      <a href="#contact">Contacts</a>
+
+    </div>
+
+  </header>
+
+
+  <!-- =========================================
+       SEARCH OVERLAY
+  ========================================== -->
+
+  <div class="search-overlay" id="searchOverlay">
+
+    <button class="search-close" id="searchClose">
+      <i data-lucide="x"></i>
+    </button>
+
+    <div class="search-content">
+
+      <span>SEARCH VELLUM</span>
+
+      <div class="search-input-wrap">
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="Search services, products..."
+        >
+
+        <i data-lucide="search"></i>
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <!-- =========================================
+       HERO
+  ========================================== -->
+
+  <main>
+
+    <section class="hero" id="home">
+
+      <div class="hero-background"></div>
+
+      <div class="hero-overlay"></div>
+
+      <div class="hero-grain"></div>
+
+
+      <div class="hero-content">
+
+        <div class="establishment">
+
+          <div class="est-line"></div>
+
+          <div class="est-icon">
+            <i data-lucide="scissors"></i>
+          </div>
+
+          <div class="est-text">
+            <span>GENTLEMEN'S BARBERSHOP</span>
+            <strong>EST. 1980</strong>
+          </div>
+
+          <div class="est-line"></div>
+
+        </div>
+
+
+        <p class="hero-kicker">
+          THE ART OF TIMELESS GROOMING
+        </p>
+
+
+        <h1>
+          VELLUM
+          <em>GROOMING</em>
+        </h1>
+
+
+        <p class="hero-description">
+          Where traditional barbering meets contemporary craftsmanship.
+          Precision cuts, classic shaves and an experience worth remembering.
+        </p>
+
+
+        <div class="hero-buttons">
+
+          <a href="#about" class="btn btn-gold">
+            ABOUT US
+            <i data-lucide="arrow-up-right"></i>
+          </a>
+
+          <a href="#services" class="btn btn-outline">
+            OUR SERVICES
+            <i data-lucide="arrow-down"></i>
+          </a>
+
+        </div>
+
+      </div>
+
+
+      <div class="hero-bottom">
+
+        <div class="hero-location">
+          <i data-lucide="map-pin"></i>
+          <span>47 KING'S LANE · LONDON</span>
+        </div>
+
+        <div class="hero-scroll">
+          <span>SCROLL TO EXPLORE</span>
+          <div class="scroll-line"></div>
+        </div>
+
+        <div class="hero-social">
+          <a href="#">IG</a>
+          <a href="#">FB</a>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================================
+         SERVICE CATEGORY BAR
+    ========================================== -->
+
+    <section class="category-section">
+
+      <div class="category-grid">
+
+        <a href="#services" class="category-item">
+
+          <div class="category-icon">
+            <i data-lucide="scissors"></i>
+          </div>
+
+          <span>Hair Cutting</span>
+
+        </a>
+
+
+        <a href="#services" class="category-item">
+
+          <div class="category-icon">
+            <i data-lucide="droplets"></i>
+          </div>
+
+          <span>Hair Washing</span>
+
+        </a>
+
+
+        <a href="#services" class="category-item">
+
+          <div class="category-icon">
+            <i data-lucide="sparkles"></i>
+          </div>
+
+          <span>Classic Shave</span>
+
+        </a>
+
+
+        <a href="#services" class="category-item">
+
+          <div class="category-icon">
+            <i data-lucide="hand"></i>
+          </div>
+
+          <span>Body Massage</span>
+
+        </a>
+
+
+        <a href="#services" class="category-item">
+
+          <div class="category-icon">
+            <i data-lucide="flower-2"></i>
+          </div>
+
+          <span>Beauty & Spa</span>
+
+        </a>
+
+
+        <a href="#services" class="category-item">
+
+          <div class="category-icon">
+            <i data-lucide="palette"></i>
+          </div>
+
+          <span>Hair Color</span>
+
+        </a>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================================
+         ABOUT SECTION
+    ========================================== -->
+
+    <section class="about section" id="about">
+
+      <div class="container about-grid">
+
+
+        <!-- Gallery -->
+
+        <div class="about-gallery">
+
+          <div class="gallery-image image-one">
+            <img
+              src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=1000&q=85"
+              alt="Barber cutting hair"
+            >
+          </div>
+
+
+          <div class="gallery-image image-two">
+            <img
+              src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&w=800&q=85"
+              alt="Professional barber"
+            >
+          </div>
+
+
+          <div class="gallery-image image-three">
+            <img
+              src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=900&q=85"
+              alt="Classic barbershop"
+            >
+          </div>
+
+
+          <div class="gallery-image image-four">
+            <img
+              src="https://images.unsplash.com/photo-1622286342621-4bd786c2447c?auto=format&fit=crop&w=900&q=85"
+              alt="Barber styling hair"
+            >
+          </div>
+
+
+          <button class="gallery-play" id="playBtn">
+
+            <span>
+              <i data-lucide="play"></i>
+            </span>
+
+            <small>OUR STORY</small>
+
+          </button>
+
+
+          <div class="gallery-stamp">
+
+            <strong>V</strong>
+
+            <span>
+              VELLUM<br>
+              GROOMING
+            </span>
+
+          </div>
+
+        </div>
+
+
+        <!-- About Content -->
+
+        <div class="about-content">
+
+          <p class="section-label">
+            OUR STORY
+          </p>
+
+
+          <h2>
+            You'll be sure to have an
+            <em>old fashioned time.</em>
+          </h2>
+
+
+          <div class="gold-divider"></div>
+
+
+          <p class="about-lead">
+            There is a certain magic in an old-fashioned barbershop.
+            The steady rhythm of scissors, the scent of warm leather,
+            and the quiet confidence of a perfectly finished cut.
+          </p>
+
+
+          <p>
+            Vellum Grooming was born from a simple belief:
+            exceptional grooming should never feel rushed.
+            We preserve the rituals of traditional barbering while
+            bringing them into the modern age.
+          </p>
+
+
+          <div class="founder">
+
+            <div class="founder-photo">
+
+              <img
+                src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=400&q=85"
+                alt="Founder of Vellum Grooming"
+              >
+
+            </div>
+
+
+            <div class="founder-info">
+
+              <strong>Alexander Hayes</strong>
+
+              <span>
+                Founder & Creative Director
+              </span>
+
+            </div>
+
+          </div>
+
+
+          <a href="#contact" class="text-button">
+
+            READ MORE
+
+            <span>
+              <i data-lucide="arrow-up-right"></i>
+            </span>
+
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================================
+         SERVICES
+    ========================================== -->
+
+    <section class="services section" id="services">
+
+      <div class="container">
+
+        <div class="section-heading">
+
+          <div>
+
+            <p class="section-label">
+              OUR SERVICE
+            </p>
+
+            <h2>
+              Service We <em>Provide</em>
+            </h2>
+
+          </div>
+
+          <p class="heading-description">
+            Refined grooming rituals, performed with precision
+            and a respect for timeless craft.
+          </p>
+
+        </div>
+
+
+        <div class="services-grid">
+
+
+          <!-- Service 01 -->
+
+          <article class="service-card">
+
+            <div class="service-number">
+              01
+            </div>
+
+            <div class="service-icon">
+              <i data-lucide="scissors"></i>
+            </div>
+
+            <h3>Clipper Cut</h3>
+
+            <p>
+              Precision fades, classic cuts and contemporary
+              styles tailored to your individual character.
+            </p>
+
+            <div class="service-bottom">
+
+              <span>FROM $35</span>
+
+              <a href="#contact">
+                READ MORE
+                <i data-lucide="arrow-up-right"></i>
+              </a>
+
+            </div>
+
+          </article>
+
+
+          <!-- Service 02 -->
+
+          <article class="service-card featured">
+
+            <div class="service-number">
+              02
+            </div>
+
+            <div class="service-icon">
+              <i data-lucide="brush"></i>
+            </div>
+
+            <h3>Beard Trim</h3>
+
+            <p>
+              Sculpted beard shaping, hot towel treatment
+              and detailed finishing for a clean silhouette.
+            </p>
+
+            <div class="service-bottom">
+
+              <span>FROM $28</span>
+
+              <a href="#contact">
+                READ MORE
+                <i data-lucide="arrow-up-right"></i>
+              </a>
+
+            </div>
+
+          </article>
+
+
+          <!-- Service 03 -->
+
+          <article class="service-card">
+
+            <div class="service-number">
+              03
+            </div>
+
+            <div class="service-icon">
+              <i data-lucide="razor"></i>
+            </div>
+
+            <h3>Face Shaver</h3>
+
+            <p>
+              A traditional straight-razor shave with warm
+              towels, rich lather and an exceptionally smooth finish.
+            </p>
+
+            <div class="service-bottom">
+
+              <span>FROM $32</span>
+
+              <a href="#contact">
+                READ MORE
+                <i data-lucide="arrow-up-right"></i>
+              </a>
+
+            </div>
+
+          </article>
+
+
+          <!-- Service 04 -->
+
+          <article class="service-card">
+
+            <div class="service-number">
+              04
+            </div>
+
+            <div class="service-icon">
+              <i data-lucide="sparkles"></i>
+            </div>
+
+            <h3>Beauty Place</h3>
+
+            <p>
+              Relaxing grooming treatments designed to restore,
+              refresh and leave you looking your absolute best.
+            </p>
+
+            <div class="service-bottom">
+
+              <span>FROM $45</span>
+
+              <a href="#contact">
+                READ MORE
+                <i data-lucide="arrow-up-right"></i>
+              </a>
+
+            </div>
+
+          </article>
+
+        </div>
+
+
+        <div class="all-services-wrap">
+
+          <a href="#contact" class="btn btn-dark-gold">
+            ALL SERVICES
+            <i data-lucide="arrow-up-right"></i>
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================================
+         PHILOSOPHY BANNER
+    ========================================== -->
+
+    <section class="philosophy">
+
+      <div class="philosophy-bg"></div>
+
+      <div class="philosophy-overlay"></div>
+
+      <div class="philosophy-content">
+
+        <span>THE VELLUM PHILOSOPHY</span>
+
+        <h2>
+          “A gentleman's appearance
+          is his <em>signature.</em>”
+        </h2>
+
+        <div class="philosophy-line"></div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================================
+         JOURNAL
+    ========================================== -->
+
+    <section class="journal section" id="journal">
+
+      <div class="container">
+
+        <div class="section-heading">
+
+          <div>
+
+            <p class="section-label">
+              FROM THE JOURNAL
+            </p>
+
+            <h2>
+              The Vellum <em>Journal</em>
+            </h2>
+
+          </div>
+
+          <a href="#journal" class="text-button">
+            VIEW ALL
+            <span>
+              <i data-lucide="arrow-up-right"></i>
+            </span>
+          </a>
+
+        </div>
+
+
+        <div class="journal-grid">
+
+
+          <article class="journal-card">
+
+            <div class="journal-image">
+
+              <img
+                src="https://images.unsplash.com/photo-1512690459411-b9245aed614b?auto=format&fit=crop&w=1000&q=85"
+                alt="Classic haircut"
+              >
+
+              <span>GROOMING</span>
+
+            </div>
+
+            <div class="journal-content">
+
+              <small>12 MAY 2026</small>
+
+              <h3>
+                The Return of the Classic Gentleman
+              </h3>
+
+              <a href="#">
+                READ STORY
+                <i data-lucide="arrow-up-right"></i>
+              </a>
+
+            </div>
+
+          </article>
+
+
+          <article class="journal-card">
+
+            <div class="journal-image">
+
+              <img
+                src="https://images.unsplash.com/photo-1593702295094-aea9c3e1a5d4?auto=format&fit=crop&w=1000&q=85"
+                alt="Barber tools"
+              >
+
+              <span>CRAFT</span>
+
+            </div>
+
+            <div class="journal-content">
+
+              <small>04 MAY 2026</small>
+
+              <h3>
+                Why Traditional Shaving Still Matters
+              </h3>
+
+              <a href="#">
+                READ STORY
+                <i data-lucide="arrow-up-right"></i>
+              </a>
+
+            </div>
+
+          </article>
+
+
+          <article class="journal-card">
+
+            <div class="journal-image">
+
+              <img
+                src="https://images.unsplash.com/photo-1599351431613-18ef1fdd27e1?auto=format&fit=crop&w=1000&q=85"
+                alt="Barbershop interior"
+              >
+
+              <span>STYLE</span>
+
+            </div>
+
+            <div class="journal-content">
+
+              <small>28 APR 2026</small>
+
+              <h3>
+                Building Your Signature Style
+              </h3>
+
+              <a href="#">
+                READ STORY
+                <i data-lucide="arrow-up-right"></i>
+              </a>
+
+            </div>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================================
+         SHOP / CTA
+    ========================================== -->
+
+    <section class="shop-section" id="shop">
+
+      <div class="container shop-grid">
+
+        <div class="shop-content">
+
+          <p class="section-label">
+            VELLUM ESSENTIALS
+          </p>
+
+          <h2>
+            Bring the
+            <em>barbershop</em>
+            home.
+          </h2>
+
+          <p>
+            Discover our collection of grooming essentials,
+            developed with the same attention to detail
+            found in every Vellum service.
+          </p>
+
+          <a href="#contact" class="btn btn-gold">
+            EXPLORE SHOP
+            <i data-lucide="arrow-up-right"></i>
+          </a>
+
+        </div>
+
+
+        <div class="shop-image">
+
+          <img
+            src="https://images.unsplash.com/photo-1621607512214-68297480165e?auto=format&fit=crop&w=1200&q=85"
+            alt="Luxury grooming products"
+          >
+
+          <div class="shop-badge">
+            <span>V</span>
+            <small>VELLUM<br>ESSENTIALS</small>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================================
+         CONTACT / APPOINTMENT
+    ========================================== -->
+
+    <section class="contact section" id="contact">
+
+      <div class="container contact-grid">
+
+        <div>
+
+          <p class="section-label">
+            MAKE AN APPOINTMENT
+          </p>
+
+          <h2>
+            Your chair
+            <em>awaits.</em>
+          </h2>
+
+          <p class="contact-description">
+            Step away from the ordinary. Reserve your chair
+            and experience grooming the Vellum way.
+          </p>
+
+          <div class="contact-details">
+
+            <div>
+              <i data-lucide="map-pin"></i>
+              <span>47 King's Lane, London</span>
+            </div>
+
+            <div>
+              <i data-lucide="phone"></i>
+              <span>+44 20 7946 0819</span>
+            </div>
+
+            <div>
+              <i data-lucide="clock-3"></i>
+              <span>Mon – Sat · 09:00 – 20:00</span>
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <form class="booking-form" id="bookingForm">
+
+          <div class="form-row">
+
+            <div class="form-group">
+              <label>YOUR NAME</label>
+              <input type="text" required placeholder="John Smith">
+            </div>
+
+            <div class="form-group">
+              <label>PHONE</label>
+              <input type="tel" required placeholder="+44 000 000 000">
+            </div>
+
+          </div>
+
+
+          <div class="form-row">
+
+            <div class="form-group">
+              <label>DATE</label>
+              <input type="date" required>
+            </div>
+
+            <div class="form-group">
+              <label>SERVICE</label>
+
+              <select required>
+                <option value="">Select service</option>
+                <option>Clipper Cut</option>
+                <option>Beard Trim</option>
+                <option>Classic Shave</option>
+                <option>Full Grooming</option>
+              </select>
+
+            </div>
+
+          </div>
+
+
+          <button type="submit" class="btn btn-gold form-submit">
+            REQUEST APPOINTMENT
+            <i data-lucide="arrow-up-right"></i>
+          </button>
+
+        </form>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- =========================================
+       FOOTER
+  ========================================== -->
+
+  <footer class="footer">
+
+    <div class="container footer-top">
+
+      <div class="footer-brand">
+
+        <a href="#home" class="logo">
+          <span>VELLUM</span>
+          <small>GROOMING</small>
+        </a>
+
+        <p>
+          The art of timeless grooming.
+          Crafted for the modern gentleman.
+        </p>
+
+        <div class="footer-socials">
+          <a href="#">Instagram</a>
+          <a href="#">Facebook</a>
+          <a href="#">Pinterest</a>
+        </div>
+
+      </div>
+
+
+      <div class="footer-column">
+
+        <h4>EXPLORE</h4>
+
+        <a href="#about">About Us</a>
+        <a href="#services">Services</a>
+        <a href="#journal">Journal</a>
+        <a href="#shop">Shop</a>
+
+      </div>
+
+
+      <div class="footer-column">
+
+        <h4>VISIT</h4>
+
+        <span>47 King's Lane</span>
+        <span>London, UK</span>
+        <span>SW1A 1AA</span>
+
+      </div>
+
+
+      <div class="footer-column">
+
+        <h4>CONTACT</h4>
+
+        <span>+44 20 7946 0819</span>
+        <span>hello@vellumgrooming.com</span>
+
+      </div>
+
+    </div>
+
+
+    <div class="footer-bottom container">
+
+      <span>
+        © <span id="year"></span> VELLUM GROOMING.
+        ALL RIGHTS RESERVED.
+      </span>
+
+      <span>
+        THE ART OF TIMELESS GROOMING.
+      </span>
+
+    </div>
+
+  </footer>
+
+
+  <!-- =========================================
+       TOAST
+  ========================================== -->
+
+  <div class="toast" id="toast">
+
+    <i data-lucide="check"></i>
+
+    <span id="toastMessage">
+      Appointment request received.
+    </span>
+
+  </div>
+
+
+  <!-- =========================================
+       BACK TO TOP
+  ========================================== -->
+
+  <button class="back-top" id="backTop">
+
+    <i data-lucide="arrow-up"></i>
+
+  </button>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
